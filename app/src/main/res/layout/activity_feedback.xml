@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hospital Name"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/feedback_hospital_edittext"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Give ratings to cleanliness :"
+            android:textColor="#000"
+            android:textSize="18sp"
+            />
+
+        <RatingBar
+            android:id="@+id/cleanliness_ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1.0"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Give ratings to facilities :"
+            android:textColor="#000"
+            android:textSize="18sp"
+            />
+
+        <RatingBar
+            android:id="@+id/facilities_ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1.0"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Give ratings to Doctor's behaviour :"
+            android:textColor="#000"
+            android:textSize="18sp"
+            />
+
+        <RatingBar
+            android:id="@+id/behaviour_ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1.0"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Give ratings to Quality of Service :"
+            android:textColor="#000"
+            android:textSize="18sp"
+            />
+
+        <RatingBar
+            android:id="@+id/qos_ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1.0"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/feedback_submit_button"
+            android:text="Submit"
+            android:textColor="#fff"
+            android:background="@drawable/button_background"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
